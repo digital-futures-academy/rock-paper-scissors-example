@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Current Player: <%= name %>!</h1>
+
+    <form action="/round" method="post">
+      <input type="hidden" name="choice" value="rock" >
+      <input id="choice-rock" type="submit" value="rock">
+    </form>
+
+    <form action="/round" method="post">
+      <input type="hidden" name="choice" value="paper">
+      <input id="choice-paper" type="submit" value="paper">
+    </form>
+
+    <form action="/round" method="post">
+      <input type="hidden" name="choice" value="scissors">
+      <input id="choice-scissors" type="submit" value="scissors">
+    </form>
+  </body>
+</html>

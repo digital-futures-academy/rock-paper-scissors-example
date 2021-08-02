@@ -1,0 +1,21 @@
+{
+  "name": "RPS example",
+  "version": "1.0.0",
+  "description": "A demo of setting up an express project",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx jasmine",
+    "start": "npx nodemon app.js"
+  },
+  "author": "dearshrewdwit",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.1.0",
+    "jasmine": "^3.7.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
